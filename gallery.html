@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/gallery.css" />
+
+		<title>Title of Your Website</title>
+
+	</head>
+
+	<body>
+
+		<!-- It is almost always a good idea to have a large div wrap out the entire contents of your html body. In this example, that div is "container" This will make placement of other HTML elements easier. -->
+
+		<div class="container">
+
+			 <!-- Navigation Bar  -->
+
+			  <!-- In order to build our nav bar, use lists. <ul> is basically the container of the list and <li> is a single element in the list.
+
+			  To insert a link in the nav bar, simply put an anchor tag <a> inside a <li>.
+
+			  For the link's href, we use id's which is another CSS selector (ID uses "#" as opposed to a class's ".". This makes sure that clicking on a link will automatically sroll down to a specific section.
+
+			  Finally, notice how our HTML is divided used <section> instead of <div>.-->
+
+			<section class="navigation">
+				<ul>
+					<li><a href="#four">Info</a></li>
+					<li><a href="#three">Gallery</a></li>
+					<li><a href="index.html">MET</a></li>
+				</ul>
+			</section>
+
+			 <!-- Hero Image  -->
+			<section class="MET" id="MET">
+				<h1>Gallery</h1>
+				<h2>2024</h2>
+				<h4>Scroll Down</h4>
+
+			</section>
+
+			 <!-- First Section  -->
+			<section class="one" id="one">
+				<div class="pink-line2"></div>
+				<div class="pink-line3"></div>
+				<img class="tyla_one" src="images/tyla1.png" />
+				<img class="tyla_two" src="images/tyla2.png" />
+				<img class="tyla_three" src="images/tyla3.png" />
+				<p class="tyla_name">Tyla</p>
+				<p class="tyla_designer">Designer: Olivier Rousteing</p>
+
+				<!-- <div class='image-container'> </div>
+				<div class='image-container right'> </div> -->
+			</section>
+
+			 <!-- Second Section  -->
+			<section class="two" id="two">
+				<div class="pink-line4"></div>
+				<div class="pink-line5"></div>
+				<img class="zendaya_one" src="images/zendaya1.png" />
+				<img class="zendaya_two" src="images/zendaya1.png" />
+				<img class="zendaya_three" src="images/zendaya2.png" />
+				<p class="zendaya_name">Zendaya</p>
+				<p class="zendaya_designer">Designer: John Galliano</p>
+			</section>
+
+			 <!-- Third Section  -->
+			<section class="three" id="three">
+				<img src="../images/gigi.png">
+        <div class="pink-line"></div>
+				<div class="pink"></div>
+					<div class="pink-line5"></div>
+        <div class="gigi">Gigi Hadid</div>
+			</section>
+
+			 <!-- Fourth Section  -->
+			<section class="four" id="four">
+				<div class="pink-line6"></div>
+				<div class="pink-line7"></div>
+				<img class="barry" src="images/barry.png" />
+				<img class="barrysabrina" src="images/barrysabrina.png" />
+				<img class="sabrina" src="images/sabrina.png" />
+				<p class="barry_name">Barry Keoghan</p>
+				<p class="barry_designer">Designer: Burberry</p>
+				<p class="sabrina_name">Sabrina Carpenter</p>
+				<p class="sabrina_designer">Designer: Oscar de la Renta</p>
+			</section>
+
+			<section class="five" id="five">
+				<img class="dojacat1" src="images/dojacat1.png" />
+				<div class="pink-line8"></div>
+				<div class="pink-line9"></div>
+				<div class="pink-line10"></div>
+				<div class="pink-line11"></div>
+				<img class="dojacat2" src="images/dojacat2.png" />
+				<img class="dojacat3" src="images/dojacat3.png" />
+				<p class="dojacat_name">Doja Cat</p>
+				<p class="doja_designer">Designer: Guram Gvasalia</p>
+			</section>
+
+			 <!-- Fifth Section  -->
+			<section class="footer" id="five">
+				<li1><a href="#four">Instagram</a></li1>
+				<li1><a href="gallery.html">Facebook</a></li1>
+				<li1><a href="#four">LinkedIn</a></li1>
+				<li1><a href="gallery.html">X</a></li1>
+				<li1><a href="#home">© 2000–2024 The Metropolitan Museum of Art. All rights reserved.</a></li1>
+			</section>
+
+		</div>
+
+	</body>
+
+</html>
